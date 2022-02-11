@@ -115,6 +115,7 @@ body{
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
+    user-select: none;
 }
 
 .quiz_box header{
@@ -184,6 +185,7 @@ section{
 section .que_text{
     font-size: 25px;
     font-weight: 600;
+    user-select: none;
 }
 
 section .option_list{
@@ -380,20 +382,4 @@ footer button.show{
 .buttons button.quit:hover{
     color: #fff;
     background: #007bff;
-}
-
-h3 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin-right: 140px;
-    margin-top: 400px;
-    font-size: 30px;
-}
-
-strong {
-    position: relative;
-    left: 1040px;
-    top: 10px;
-    font-size: 20px;
 }
